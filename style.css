@@ -58,12 +58,22 @@ header > .menu-links {
   box-shadow: 2px 2px #FC52D2, -2px -2px #21EDF4;
 }
 
-.quote {
-  margin-bottom: 0px;
+.testimonial-table {
+  display: inline;
+  width: 90%;
+  display: flex;
 }
 
-.quote-name {
-  margin-top: 0px;
+.testimonial-card {
+  width: 28%;
+  display: inline-block;
+  border: 1px #000000 solid;
+  margin: 4px;
+  flex-shrink: 1;
+  font-size: 0.75em;
+  padding: 8px 4px;
+  text-align: center;
+  box-shadow: 2px 2px #FC52D2, -2px -2px #21EDF4;
 }
 
 .active-link {
