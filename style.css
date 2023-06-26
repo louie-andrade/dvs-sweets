@@ -58,7 +58,15 @@ header > .menu-links {
   box-shadow: 2px 2px #FC52D2, -2px -2px #21EDF4;
 }
 
-.menu-links a:hover, .active-link {
+.quote-name {
+  margin-top: 0px;
+}
+
+.active-link {
+  background-color: #FC52D2;
+}
+
+.menu-links a:hover {
   background-color: #FC52D2;
 }
 
