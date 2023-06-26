@@ -96,8 +96,12 @@ footer {
   text-align: center;
 }
 
-.contact-card > p {
+.contact-card > p, .product-card > p {
   margin: 0px auto;
+}
+
+.product-card {
+  margin: 8px;
 }
 
 a {
