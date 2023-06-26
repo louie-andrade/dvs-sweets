@@ -58,6 +58,10 @@ header > .menu-links {
   box-shadow: 2px 2px #FC52D2, -2px -2px #21EDF4;
 }
 
+.quote {
+  margin-bottom: 0px;
+}
+
 .quote-name {
   margin-top: 0px;
 }
