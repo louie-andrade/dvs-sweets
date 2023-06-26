@@ -25,8 +25,7 @@ p {
 
 h1{
   margin-bottom: 0px;
-  text-shadow: 1px 1px #FC52D2, -1px -1px #21EDF4;
-  
+  text-shadow: 0.5px 0.5px #FC52D2, -0.5px -0.5px #21EDF4;
 }
 
 h2 {
@@ -53,15 +52,14 @@ header > .menu-links {
   color: #000000;
   border: 2px solid #000000;
   width: 104px;
-  line-height: 32px;
+  line-height: 38px;
   padding: 4px 13px;
   text-decoration: none;
   box-shadow: 2px 2px #FC52D2, -2px -2px #21EDF4;
 }
 
-.menu-links a:hover {
-  background-color: #21EDF4;
-  color: #FC52D2;
+.menu-links a:hover, .active-link {
+  background-color: #FC52D2;
 }
 
 .social-media-links > a > img {
